@@ -1,0 +1,105 @@
+
+#container{
+           position:relative;
+           top:45px;
+           left:87px;
+           height:550px;
+           width:1200px;
+           border:1px solid black;
+	   background-color:lightcyan;
+          }
+
+#display{
+           position:relative;
+           top:10px;
+           height:450px;
+           width:500px;
+           border:1px solid black;
+	   background-color:white;
+          
+
+        }
+#controls{
+           position:absolute;
+           top:10px;
+           height:100px;
+           width:200px;
+           border:1px solid black;
+	   right:200px;
+           line-height:5px;
+           background-color:gray;
+         }
+input{
+           width:200px;
+           margin-top:5px;
+          
+     }
+
+input:hover{
+	     background-color:lightcyan;
+
+           }
+input:active{
+	     background-color:yellow;
+
+           }
+#update, #delete, #add{
+           position:absolute;
+           top:200px;
+           right:380px;
+           height:330px;
+           width:380px;
+           background-color:white;
+           visibility:hidden;
+           padding-top:60px;
+           line-height:10px;
+          
+
+       }
+
+#frmdelete{
+            height:300px;
+            width:300px;
+
+          }
+
+#frmupdate{
+
+            height:300px;
+            width:300px;
+          }
+#idno:hover{background-color:white;}
+
+#chgField,#idForChange{background-color:white;}
+
+.fill{
+      height:20px;
+      width:180px;
+      margin-up:10px;
+   }
+
+.fill:hover{ background-color:white;}
+#idForChange:hover{background-color:white;}
+
+#lab1{font-size:20px;
+      font-style:italic;
+      
+     }
+      
+radio{float:right;}
+
+#mess{
+      
+      color:red;
+      font-size:20px;
+    }
+
+h1{
+    text-align:center;
+    text-decoration:underline;
+    font-style:italic;
+    color:green;
+    
+
+  }
+           
